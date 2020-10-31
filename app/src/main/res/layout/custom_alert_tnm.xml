@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_app"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ChonEmail"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btnGoEmail"
+            android:text="@string/Email"
+            android:background="@drawable/custom_button_border"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btnCancel"
+            android:text="@string/Huy"
+            android:background="@drawable/custom_button_border1"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btnGoPhone"
+            android:text="@string/Phone"
+            android:background="@drawable/custom_button_border"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

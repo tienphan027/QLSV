@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.MonHoc_Fragment"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ToolBar"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/EditText_Search"
+                android:layout_weight="2"
+                android:hint="Tìm Kiếm ..."
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/ic_search"
+                android:drawablePadding="15dp"
+                android:textCursorDrawable="@drawable/cursor"
+                android:backgroundTint="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorWhite"
+                android:background="@drawable/ic_refresh"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ToolBar"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>

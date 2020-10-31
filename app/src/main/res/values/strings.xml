@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">App Quan Li Sinh Vien</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dangnhap">ĐĂNG NHẬP</string>
+    <string name="dangnhap1">Đăng Nhập</string>
+    <string name="hint_email">Nhập Email</string>
+    <string name="hint_password">Nhập Password</string>
+    <string name="question_dangxuat">Bạn Có Chắc Là Muốn Đăng Xuất ?</string>
+    <string name="co">Có</string>
+    <string name="khong">Không</string>
+    <string name="title_thongtin">Thông Tin</string>
+    <string name="title_monhoc">Môn Học</string>
+    <string name="title_lichhoc">Lịch Học</string>
+    <string name="title_dangxuat">Đăng Xuất</string>
+    <string name="title_search">Search Here</string>
+
+    <string name="facebook_app_id">2311454229089535</string>
+    <string name="fb_login_protocol_scheme">fb2311454229089535</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+
+    <string name="Ten">Họ và tên</string>
+    <string name="Mssv">MSSV</string>
+    <string name="GioiTinh">Giới tính</string>
+    <string name="NgaySinh">Ngày sinh</string>
+    <string name="DiaChi">Địa chỉ</string>
+    <string name="Email">Email</string>
+    <string name="Pass">Password</string>
+    <string name="Login">Login</string>
+
+    <string name="btnFacebook">Logout FB</string>
+    <string name="TenMon">Tên môn</string>
+    <string name="MaMon">Mã môn</string>
+    <string name="TBM">TBM</string>
+    <string name="TrangThai">Trạng thái</string>
+    <string name="GiangVien">Giảng viên</string>
+    <string name="HocKy">Học kỳ</string>
+    <string name="ThuNgay">Thứ ngày</string>
+    <string name="PhongHoc">Phòng học</string>
+    <string name="CaHoc">Ca học</string>
+
+    <string name="Lab1">Lap 1</string>
+    <string name="Lab2">Lap 2</string>
+    <string name="Lab3">Lap 3</string>
+    <string name="Lab4">Lap 4</string>
+    <string name="Lab5">Lap 5</string>
+    <string name="Lab6">Lap 6</string>
+    <string name="Lab7">Lap 7</string>
+    <string name="Lab8">Lap 8</string>
+    <string name="Quiz">Quiz</string>
+    <string name="Asm1">Assignment 1</string>
+    <string name="Asm2">Assignment 2</string>
+    <string name="Document">Document</string>
+    <string name="BaoVe">Bảo vệ</string>
+    <string name="DiemTB">Điểm trung bình</string>
+
+
+    <string name="Nganh">Ngành học</string>
+    <string name="Nganh1">Thiết kế đồ họa</string>
+    <string name="Nganh2">Lập trình Mobile</string>
+    <string name="Nganh3">Ứng dụng phần mềm</string>
+    <string name="Nganh4">Lập trình Web</string>
+
+    <string name="TraNoMon">Trả nợ môn</string>
+    <string name="DangNhap">Đăng nhập</string>
+    <string name="QuenTK">Quên Tài Khoản</string>
+    <string name="DangXuat">Đăng xuất</string>
+    <string name="XacNhan">Xác nhận</string>
+    <string name="LienHe">Liên hệ FPT Polytechnic</string>
+    <string name="FPT">FPT POLYTECHNIC</string>
+    <string name="GuiEmail">Gửi Email</string>
+    <string name="Phone">Gọi điện</string>
+    <string name="ChonEmail">Có thể liên hệ trực tiếp phòng CTSV hoặc gửi Email ?</string>
+    <string name="Huy">Hủy</string>
+    <string name="Logout">Bạn có muốn đăng xuất</string>
+    <string name="BackLogin">Bạn có muốn quay lại đăng nhập</string>
+    <string name="Thoat">Thoát</string>
+    <string name="Olai">Ở lại</string>
+    <string name="CapNhatHoSo">Cập nhật hồ sơ</string>
+    <string name="NhapTenMon">Nhập tên môn</string>
+
+    <string name="ThongBao">Thông Báo</string>
+    <string name="LichHoc">Lịch học</string>
+    <string name="MonHoc">Môn học</string>
+    <string name="HoSo">Hồ Sơ</string>
+    <string name="TimKiem">Tìm kiếm</string>
+    <string name="loading">Loading</string>
+</resources>

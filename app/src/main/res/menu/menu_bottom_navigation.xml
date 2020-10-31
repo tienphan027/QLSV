@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_thongtin"
+        android:icon="@drawable/ic_thongtin"
+        android:title="@string/title_thongtin"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/nav_monhoc"
+        android:icon="@drawable/ic_monhoc"
+        android:title="@string/title_monhoc"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/nav_lichhoc"
+        android:icon="@drawable/ic_lichhoc"
+        android:title="@string/title_lichhoc"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/nav_tranomon"
+        android:icon="@drawable/ic_tranomon"
+        android:title="Trả Nợ Môn"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/nav_dangxuat"
+        android:icon="@drawable/ic_dangxuat"
+        android:title="@string/title_dangxuat"
+        app:showAsAction="always|withText"/>
+
+</menu>

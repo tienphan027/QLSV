@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/custom_background_border1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextView_ThuNgay"
+            android:text="Thứ Ngày: Thứ 2, 11-03-2019"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextView_MaMon"
+            android:text="Mã Môn: MOB403"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextView_TenMon"
+            android:text="Tên Môn: Android Cơ Bản"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextView_PhongHoc"
+            android:text="Phòng Học: LT304"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextView_Slot"
+            android:text="Slot: Ca 6, (19h30 - 21h30)"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

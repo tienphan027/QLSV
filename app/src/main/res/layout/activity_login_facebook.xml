@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <com.facebook.login.widget.ProfilePictureView
+            android:id="@+id/imageAvatar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            />
+
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/Ten"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite"
+            tools:ignore="RtlHardcoded" />
+
+
+        <TextView
+            android:id="@+id/textEmail"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="@string/Email"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorBlack"
+            android:gravity="left|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/DangXuat"
+                android:background="@drawable/custom_background_border1"
+                android:textColor="@color/colorYellow"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/XacNhan"
+                android:textColor="@color/colorYellow"
+                android:background="@drawable/custom_background_border1"
+                tools:ignore="ButtonStyle" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

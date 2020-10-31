@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorPrimary"
+    tools:context=".Activity.LoginGoogleActivity" >
+
+    <LinearLayout
+        android:id="@+id/llProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgProfilePic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_app"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/Ten"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/Email"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorWhite"/>
+
+    </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_sign_in"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btn_sign_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/DangXuat"
+            android:background="@drawable/custom_background_border1"
+            android:textColor="@color/colorYellow"
+            tools:ignore="ButtonStyle"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/XacNhan"
+            android:textColor="@color/colorYellow"
+            android:background="@drawable/custom_background_border1"
+            tools:ignore="ButtonStyle"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
